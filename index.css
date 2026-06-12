@@ -1,3 +1,7 @@
+body{
+    background-color:#D3D3D3;
+}
+
 ul{
     list-style-type:none;
     margin:0;
@@ -22,9 +26,16 @@ ul li a{
     text-decoration: none;
 }
 
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
 .cont{
     display: flex;
     flex-direction: column;
+    
     width: 200px;
     height: 200px;
     margin:10px auto;
@@ -32,6 +43,7 @@ ul li a{
     border: 1px solid black;
     font-family: monospace;
     text-align: center;
+    border-radius: 10px;
     
 
 }
