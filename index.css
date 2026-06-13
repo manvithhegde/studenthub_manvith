@@ -84,6 +84,12 @@ ul li a{
     font-family: monospace;
     
 }
+.list{
+    display: list-item;
+    list-style: disc;
+    background-color:#0F172A ;
+    
+}
 footer {
       
       color: #fff;
