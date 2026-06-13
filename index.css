@@ -18,7 +18,7 @@ nav {
     background-color: #333333;
     padding: 10px 30px;
 }
-nav:hover{
+nav ul li:hover{
     background-color: black;
 }
 
@@ -33,11 +33,18 @@ nav:hover{
     height: 40px;
     border-radius: 50%;
 }
+
 .logo span{
     font-family: monospace;
     font-weight: bold;
 }
+.logo img:hover{
+    background-color: black;
+}
 
+.logo span:hover{
+    background-color: black;
+}
 ul{
     list-style-type:none;
     margin:0 auto 0 auto;
