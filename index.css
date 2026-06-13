@@ -18,6 +18,9 @@ nav {
     background-color: #333333;
     padding: 10px 30px;
 }
+nav:hover{
+    background-color: black;
+}
 
 .logo {
     display: flex;
